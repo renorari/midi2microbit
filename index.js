@@ -8,8 +8,6 @@ function noteNumToHz(noteNum) {
 const midi = [];
 var deltaTime = 0;
 
-fs.writeFileSync("a.txt", JSON.stringify(parseMidi(fs.readFileSync("test4.mid")), null, 4));
-
 parseMidi(fs.readFileSync("test.mid")).tracks/*.forEach((track) => {*/
     // eslint-disable-next-line no-unexpected-multiline
     /*track*/[2].forEach((event) => {
